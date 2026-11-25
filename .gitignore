@@ -1,0 +1,30 @@
+# Environment & Local Credentials (NEVER commit)
+.env
+**/.env
+.env.*
+!.env.example
+
+# Build, Compiled Outputs & Distributables
+target/
+out/
+dist/
+lib/
+*.class
+*.jar
+*.war
+*.zip
+
+# Logs & Temporary Files
+*.log
+*.tmp
+*.bak
+
+# IDE & OS Files
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+.DS_Store
+Thumbs.db
